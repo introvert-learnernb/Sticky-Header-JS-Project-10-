@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Header</title>
+
+    <!-- Adding the favicon  -->
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+
+    <!-- linking with external stylesheet  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- linking with remix icon  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <!-- header  -->
+      <header id="home">
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="navbar__container">
+            <div class="navbar__header">
+              <img src="imgs/nav-logo.png" alt="nav logo" />
+              <button class="btn__toggle">
+                <i class="ri-menu-line"></i>
+              </button>
+            </div>
+            <div class="links__container">
+              <ul class="links">
+                <li>
+                  <a href="#home" class="scroll-link">home</a>
+                </li>
+                <li>
+                  <a href="#about" class="scroll-link">about</a>
+                </li>
+                <li>
+                  <a href="#service" class="scroll-link">service</a>
+                </li>
+                <li>
+                  <a href="#contact" class="scroll-link">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- banner  -->
+        <div class="banner">
+            <div class="img__container">
+                <img src="imgs/banner.jpg" alt="banner image">
+            </div>
+            <div class="banner__info">
+                <div class="banner__title">Welcome to Trita</div>
+                <div class="banner__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquid reprehenderit voluptate adipisci deleniti.</div>
+                <div class="btn">Our Services</div>
+            </div>
+        </div>
+      </header>
+      <section id="about" class="section">
+        <div class="section__title">about us</div>
+      </section>
+      <section id="service" class="section">
+        <div class="section__title">our services</div>
+      </section>
+      <section id="contact" class="section">
+        <div class="section__title">contact us</div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+            &copy;<span id="year">2000</span> Neev Badu. All rights reserved.
+        </div>
+    </footer>
+    <!-- get to top -->
+    <div class="get__to__top">
+        <a href="#home">
+            <button class="top__btn">
+                <i class="ri-arrow-up-line"></i>
+            </button>
+        </a>
+       
+    </div>
+    <!-- linking with external js  -->
+    <script src="main.js"></script>
+  </body>
+</html>
